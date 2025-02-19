@@ -1,0 +1,9 @@
+.profile-card {
+    background-color: black;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 1em;
+}

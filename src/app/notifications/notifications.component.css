@@ -1,0 +1,10 @@
+.notification-card {
+    background-color: rgb(78, 78, 78);
+    width: 50%;
+    align-items: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+}
