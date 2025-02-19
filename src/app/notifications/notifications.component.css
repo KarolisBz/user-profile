@@ -1,7 +1,6 @@
 .notification-card {
     background-color: rgb(78, 78, 78);
     width: 75%;
-    align-items: 50%;
     margin: auto;
     text-align: center;
     color: white;
@@ -9,6 +8,41 @@
     padding: 0.5em;
 }
 
+p { 
+    color: white;
+    text-shadow: 0.5em 0.5em 0.5em rgb(217, 228, 62);
+    font-size: large;
+}
+
+.glowText {
+    text-shadow: 0.125em 0.125em 0.25em rgb(178, 243, 255);
+    color: rgb(255, 255, 172);
+    font-size:xx-large;
+}
+
 .unreadCard {
     text-decoration: underline;
+    text-shadow: 0.125em 0.125em 0.25em rgb(178, 243, 255);
+    color: rgb(255, 255, 172);
+}
+
+.notification {
+    background-color: rgba(158, 181, 245, 0.301);
+    border-radius: 30px;
+    padding: 0.5px;
+    margin: 0.5em;
+    border-color: rgba(254, 255, 246, 0.418);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.divider {
+    background-color: rgb(251, 255, 0);
+    border-radius: 30px;
+    padding: 1px;
+    margin: 0.5em;
+    border-color: rgba(135, 207, 255, 0.616);
+    border-width: 3px;
+    border-style: solid;
+    background: linear-gradient(to right, yellow, blue);
 }

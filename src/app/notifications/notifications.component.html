@@ -1,10 +1,13 @@
+<div class="divider"></div>
 <div class="notification-card">
-    <h1>notifications!</h1>
+    <h1 class="glowText">⭐notifications!⭐</h1>
     @for (notification of notifications; track notification) {
-        @if (notification.read) {
-            <p>{{ notification.message }}</p>
-        } @else {
-            <p class="unreadCard">{{ notification.message }}</p>
-        }
+        <div class="notification">
+            @if (notification.read) {
+                <p>{{ notification.message }}</p>
+            } @else {
+                <p class="unreadCard">{{ notification.message }}</p>
+            }
+        </div>
     }
 </div>

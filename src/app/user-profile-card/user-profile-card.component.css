@@ -2,8 +2,24 @@
     background-color: black;
     margin: auto;
     width: 65%;
-    height: 50%;
+    height: ma;
     text-align: center;
-    color: white;
     border-radius: 1em;
+}
+
+p { 
+    color: white;
+    text-shadow: 0.5em 0.5em 0.5em rgb(217, 228, 62);
+    font-size: large;
+}
+
+.glowText {
+    text-shadow: 0.125em 0.125em 0.25em rgb(178, 243, 255);
+    color: rgb(255, 255, 172);
+    font-size:xx-large;
+}
+
+h1 {
+    color: white;
+    text-align: center;
 }
